@@ -1,5 +1,4 @@
-//jo samajh na aye puch lio :)
-
+#moj kr :)
 
 * 
 * * 
