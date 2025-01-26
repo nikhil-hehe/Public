@@ -119,7 +119,16 @@ B A B
 A B A B A
 B A B A B A B
 
-#ye wala kal krunga
+rows = 4
+
+for i in range(rows):
+    row = []
+    for j in range(2 * i + 1):  
+        if (i + j) % 2 == 0:
+            row.append('A')
+        else:
+            row.append('B')
+    print(" ".join(row))
 
 
 _________________________________
@@ -128,7 +137,13 @@ _________________________________
 1 0 1 0 1
 0 1 0 1 0 1 0
 
-#same logic as above
+rows = 4
+for i in range(rows):
+    row = []
+    for j in range(2 * i + 1):  
+        row.append((i + j) % 2)
+    print(" ".join(map(str, row))) #ise bina mapping ke nahi kr pa rha tha sori
+
 
 _______________________________
 #incorrect one
