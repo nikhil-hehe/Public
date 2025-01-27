@@ -1,5 +1,3 @@
-/*user defined strcat
-
 #include <stdio.h>
 
 int input(char str[], int n) {
